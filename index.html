@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <!-- Box Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="icon"  href="images/favicon.ico">
+</head>
+<body>
+    <div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="movies.html">Browse movies</a>
+  
+  <!-- <div class="search-container"> 
+  <form onsubmit="searchMovie(event)">
+  <input type="text" id="searchInput" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div> -->
+</div>
+      <br />
+      <h2 class="heading">Welcome to the World's Best Animation Movies Website</h2>
+      <br />
+
+     <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img class="new" src="images/dcleagueofsuperpets.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img class="new" src="images/mummies.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img class="new" src="images/mortalkombatlegendsofsnowblind.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+ <!-- Newsletter -->
+  <section class="newsletter" id="newsletter">
+    <h2>Subscribe To Get<br>Newsletter</h2>
+    <form id="subscribeForm">
+      <input type="email" class="email" id="emailInput" placeholder="Enter Email...." required>
+      <input type="submit" value="Subscribe" class="btn" id="subscribeButton">
+    </form>
+  </section>
+
+ <!-- Footer -->
+       <section class="footer">
+       	<a href="index.html" class="logo">
+       		<i class='bx bxs-movie'></i>Movies
+       	</a>
+       	<div class="social">
+       		<a href="https://www.facebook.com/profile.php?id=100086278460859&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+       		<a href="https://instagram.com/eliasatupakisye?igshid=MzNlNGNkZWQ4Mg=="><i class='bx bxl-instagram'></i></a>
+       	</div>
+       </section>
+
+<!-- Copyright -->
+       <div class="copyright">
+         <p>&#169; AtupakisyeStephen All Rights Reserved 2023</p>
+       </div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
